@@ -1,0 +1,448 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 25, Skipped: 0, Time elapsed: 1.102 sec <<< FAILURE!
+Verify user is able to login with valid credentials(Login feature)  Time elapsed: 0.128 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at com.automation.login.user_entered_correct_url(login.java:11)
+	at ✽.user entered correct URL(file:///C:/Users/mmowl/IdeaProjects/BankApplication/src/test/resources/features/login.feature:5)
+
+Verify user is not able to login with both invalid credentials(Login feature)  Time elapsed: 0.015 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at com.automation.login.user_entered_correct_url(login.java:11)
+	at ✽.user entered correct URL(file:///C:/Users/mmowl/IdeaProjects/BankApplication/src/test/resources/features/login.feature:5)
+
+Verify user is not able to login with valid username and invalid password(Login feature)  Time elapsed: 0.009 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at com.automation.login.user_entered_correct_url(login.java:11)
+	at ✽.user entered correct URL(file:///C:/Users/mmowl/IdeaProjects/BankApplication/src/test/resources/features/login.feature:5)
+
+Verify user is not able to login with invalid username and valid password(Login feature)  Time elapsed: 0.008 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at com.automation.login.user_entered_correct_url(login.java:11)
+	at ✽.user entered correct URL(file:///C:/Users/mmowl/IdeaProjects/BankApplication/src/test/resources/features/login.feature:5)
+
+verify user is not able to login with blank credentials(Login feature)  Time elapsed: 0.007 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at com.automation.login.user_entered_correct_url(login.java:11)
+	at ✽.user entered correct URL(file:///C:/Users/mmowl/IdeaProjects/BankApplication/src/test/resources/features/login.feature:5)
+
+verify user is locked out after more than 3 unsuccessful attempts(Login feature)  Time elapsed: 0.007 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at com.automation.login.user_entered_correct_url(login.java:11)
+	at ✽.user entered correct URL(file:///C:/Users/mmowl/IdeaProjects/BankApplication/src/test/resources/features/login.feature:5)
+
+Verify Sign Up Here link redirects the user to the Sign Up page(This feature will allow user to successfully create an account)  Time elapsed: 0.013 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user is on Homepage' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on Homepage")
+public void user_is_on_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on sign Up Here link")
+public void user_clicks_on_sign_up_here_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify user is on the registration page")
+public void verify_user_is_on_the_registration_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user is able to choose a proper title from the drop-down window(This feature will allow user to successfully create an account)  Time elapsed: 0.007 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user is on the Registration page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on the Registration page")
+public void user_is_on_the_registration_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user click on Title field")
+public void user_click_on_title_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify user can see the drop-down window with title options")
+public void verify_user_can_see_the_drop_down_window_with_title_options() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks on proper selection")
+public void user_clicks_on_proper_selection() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify chosen selection appears in the Title field")
+public void verify_chosen_selection_appears_in_the_title_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user can enter first name(This feature will allow user to successfully create an account)  Time elapsed: 0.006 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on First Name field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on First Name field")
+public void user_clicks_on_first_name_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types in first name")
+public void user_types_in_first_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify first name is displayed in the First Name field")
+public void verify_first_name_is_displayed_in_the_first_name_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user can enter last name(This feature will allow user to successfully create an account)  Time elapsed: 0.005 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on Last Name field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on Last Name field")
+public void user_clicks_on_last_name_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types in last name")
+public void user_types_in_last_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify last name is displayed in the First Name field")
+public void verify_last_name_is_displayed_in_the_first_name_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user can select gender(This feature will allow user to successfully create an account)  Time elapsed: 0.004 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on proper radio button' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user clicks on proper radio button")
+public void user_clicks_on_proper_radio_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify first name is displayed in the First Name field")
+public void verify_first_name_is_displayed_in_the_first_name_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("one radio button is active")
+public void one_radio_button_is_active() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("second radio button is not active")
+public void second_radio_button_is_not_active() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user can enter correct date of birth #1(This feature will allow user to successfully create an account)  Time elapsed: 0.009 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on DOB field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on DOB field")
+public void user_clicks_on_dob_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types correct {string}, {string}, {string} format")
+public void user_types_correct_format(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify DOB is displayed in the First Name field")
+public void verify_dob_is_displayed_in_the_first_name_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user can enter correct date of birth #2(This feature will allow user to successfully create an account)  Time elapsed: 0.009 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on DOB field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on DOB field")
+public void user_clicks_on_dob_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types correct {string}, {string}, {string} format")
+public void user_types_correct_format(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify DOB is displayed in the First Name field")
+public void verify_dob_is_displayed_in_the_first_name_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user can enter correct date of birth #3(This feature will allow user to successfully create an account)  Time elapsed: 0.009 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on DOB field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on DOB field")
+public void user_clicks_on_dob_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types correct {string}, {string}, {string} format")
+public void user_types_correct_format(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify DOB is displayed in the First Name field")
+public void verify_dob_is_displayed_in_the_first_name_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user can enter correct date of birth #4(This feature will allow user to successfully create an account)  Time elapsed: 0.009 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on DOB field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on DOB field")
+public void user_clicks_on_dob_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types incorrect {string}, {string}, {string} format")
+public void user_types_incorrect_format(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify user gets an error message {string}")
+public void verify_user_gets_an_error_message(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user can enter correct date of birth #5(This feature will allow user to successfully create an account)  Time elapsed: 0.011 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on DOB field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on DOB field")
+public void user_clicks_on_dob_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types incorrect {string}, {string}, {string} format")
+public void user_types_incorrect_format(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify user gets an error message {string}")
+public void verify_user_gets_an_error_message(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user can enter correct date of birth #6(This feature will allow user to successfully create an account)  Time elapsed: 0.005 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on DOB field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on DOB field")
+public void user_clicks_on_dob_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types incorrect {string}, {string}, {string} format")
+public void user_types_incorrect_format(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("verify user gets an error message {string}")
+public void verify_user_gets_an_error_message(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user is able to enter correct SSN #1(This feature will allow user to successfully create an account)  Time elapsed: 0.005 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on SSN field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on SSN field")
+public void user_clicks_on_ssn_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types in correct {string} format")
+public void user_types_in_correct_format(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("SSN is displayed in the SSN field")
+public void ssn_is_displayed_in_the_ssn_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user is able to enter correct SSN #2(This feature will allow user to successfully create an account)  Time elapsed: 0.006 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on SSN field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on SSN field")
+public void user_clicks_on_ssn_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types in correct {string} format")
+public void user_types_in_correct_format(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("SSN is displayed in the SSN field")
+public void ssn_is_displayed_in_the_ssn_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user is able to enter correct SSN #3(This feature will allow user to successfully create an account)  Time elapsed: 0.005 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on SSN field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on SSN field")
+public void user_clicks_on_ssn_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types in correct {string} format")
+public void user_types_in_correct_format(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("SSN is displayed in the SSN field")
+public void ssn_is_displayed_in_the_ssn_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user is not able to enter incorrect SSN #1(This feature will allow user to successfully create an account)  Time elapsed: 0.008 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on SSN field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on SSN field")
+public void user_clicks_on_ssn_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types incorrect {string} format")
+public void user_types_incorrect_format(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("error message is displayed prompting to enter correct format SSN")
+public void error_message_is_displayed_prompting_to_enter_correct_format_ssn() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user is not able to enter incorrect SSN #2(This feature will allow user to successfully create an account)  Time elapsed: 0.006 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on SSN field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on SSN field")
+public void user_clicks_on_ssn_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types incorrect {string} format")
+public void user_types_incorrect_format(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("error message is displayed prompting to enter correct format SSN")
+public void error_message_is_displayed_prompting_to_enter_correct_format_ssn() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user is not able to enter incorrect SSN #3(This feature will allow user to successfully create an account)  Time elapsed: 0.004 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on SSN field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on SSN field")
+public void user_clicks_on_ssn_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types incorrect {string} format")
+public void user_types_incorrect_format(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("error message is displayed prompting to enter correct format SSN")
+public void error_message_is_displayed_prompting_to_enter_correct_format_ssn() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user is not able to enter incorrect SSN #4(This feature will allow user to successfully create an account)  Time elapsed: 0.005 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on SSN field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on SSN field")
+public void user_clicks_on_ssn_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types incorrect {string} format")
+public void user_types_incorrect_format(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("error message is displayed prompting to enter correct format SSN")
+public void error_message_is_displayed_prompting_to_enter_correct_format_ssn() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Verify user is not able to enter incorrect SSN #5(This feature will allow user to successfully create an account)  Time elapsed: 0.004 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user clicks on SSN field' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user clicks on SSN field")
+public void user_clicks_on_ssn_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user types incorrect {string} format")
+public void user_types_incorrect_format(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("error message is displayed prompting to enter correct format SSN")
+public void error_message_is_displayed_prompting_to_enter_correct_format_ssn() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

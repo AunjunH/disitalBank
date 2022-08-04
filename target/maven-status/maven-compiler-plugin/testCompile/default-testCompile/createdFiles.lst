@@ -1,0 +1,3 @@
+pages\Registration.class
+pages\Login.class
+StepDefs\LoginSteps.class
